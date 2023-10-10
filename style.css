@@ -7,7 +7,146 @@ html,
 body{
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
+
+.main{
+    width: 100vw;
+}
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    font-family: "Roboto";
+   
+    
+}
+.font1{
+    font-family: 'Itim', cursive;
+}
+.font2{
+    
+    font-family: 'Festive', cursive;
+}
+nav>div>ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3vmax;
+    padding-left: 3vmax;
+    font-size: 1vmax;
+    letter-spacing: 0.04vmax;
+}
+nav>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 3vmax;
+}
+nav>div>div{
+    display: flex;
+    align-items: center;
+    gap: 1vmax;
+   
+}
+nav>div>div>button{
+     font-family: "Roboto";
+}
+nav>div>h3{
+font-family: 'Festive', cursive;
+font-size: 2vmax;
+margin-right: 10vmax;
+}
+nav>div>div>img{
+    width: 6vmax;
+}
+.nav-blur-bg{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(0.5px);
+  backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.nav-content-box{
+   width: 100vw;
+    height: 10vh;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.page1{
+    width: 100vw;
+    height: 100vh;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.page1>div{
+    width: 80%;
+    height: 70%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.page1>div>div>h1{
+    font-size: 6vmax;
+    font-family: "Roboto";
+    font-weight: 900;
+    letter-spacing: 0.1vmax;
+    /* -webkit-text-stroke: 1px #ff2963; */
+}
+.page1>div>div>img{
+    width: 50vmax;
+    }
+.page1>div>div{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10vmax;
+}
+.page1>div>h4{
+    font-weight: 400;
+    letter-spacing: 0.1vmax;
+    font-family: "Roboto Light";
+}
+.page1>div>button{
+    width: 80vmax;
+    height: 3vmax;
+   letter-spacing: 0.1vmax;
+}
+.page1>div>button>i{
+    font-size: 1.5vmax;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================== */
+
+
+
 .hero{
     width: 100%;
     min-height: 100vh;
