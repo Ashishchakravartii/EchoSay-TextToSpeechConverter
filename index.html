@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EchoSay</title>
     <link rel="stylesheet" href="style.css" />
-   <link href="https://fonts.googleapis.com/css2?family=Festive&family=Itim&display=swap" rel="stylesheet">
-   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Festive&family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="main">
@@ -15,38 +20,174 @@
         <div class="nav-blur-bg"></div>
         <div class="nav-content-box">
           <ul>
-            <li class="font1" style="color: #d72151; font-size: 1.3vmax;"><strong>Let's Start!</strong></li>
+            <li class="font1" style="color: #d72151; font-size: 1.3vmax">
+              <strong>Let's Start!</strong>
+            </li>
             <li>Home</li>
             <li>About</li>
             <li>Contact</li>
           </ul>
           <h3>EchoSay</h3>
           <div>
-            <button>Write To US !</button>
-             <img src="assets/heyGif.gif" alt="">
+            <button><a href="#newsletter">Write To US !</a></button>
+            <img src="assets/heyGif.gif" alt="" />
           </div>
         </div>
       </nav>
       <div class="page1">
-       <div>
         <div>
-          <h1>Text to Voice Generator</h1>
-          <img src="assets/voiceIcon.gif" alt="">
-
+          <div>
+            <h1>Text to Voice Generator</h1>
+            <img src="assets/voiceIcon.gif" alt="" />
+          </div>
+          <h4>Online AI voice generator from text; free</h4>
+          <a href="#writeBox"
+            ><button>
+              Convert text to voice
+              <i class="ri-netease-cloud-music-line"></i></button
+          ></a>
         </div>
-        <h4>Online AI voice generator from text; free</h4>
-        <button>Convert text to voice <i class="ri-netease-cloud-music-line"></i></button>
-       </div>
       </div>
 
-      <div class="hero">
+      <div id="writeBox" class="hero">
         <h1>Text To Speech <span>Converter</span></h1>
         <textarea placeholder="Write Anything Here..."></textarea>
         <div class="row">
-          <select></select>
-          <button>Listen</button>
+          <select class="form-select"></select>
+          <button class="listenBtn">Listen</button>
         </div>
       </div>
+      <div class="page3">
+        <div class="page3-headDiv">
+          <h1>Trusted by 1000+ well-known brands</h1>
+        </div>
+        <div class="page3-logoDiv">
+          <div>
+            <img src="https://voicemaker.in/images/brands/1.svg" alt="" />
+            <img src="https://voicemaker.in/images/brands/2.svg" alt="" />
+            <img src="https://voicemaker.in/images/brands/3.svg" alt="" />
+            <img src="https://voicemaker.in/images/brands/4.svg" alt="" />
+            <img src="https://voicemaker.in/images/brands/5.svg" alt="" />
+            <img src="https://voicemaker.in/images/brands/6.svg" alt="" />
+          </div>
+          <div>
+            <img src="https://voicemaker.in/images/brands/7.svg" alt="" />
+            <img src="https://voicemaker.in/images/brands/8.svg" alt="" />
+            <img src="https://voicemaker.in/images/brands/9.svg" alt="" />
+            <img src="https://voicemaker.in/images/brands/10.svg" alt="" />
+            <img src="https://voicemaker.in/images/brands/11.svg" alt="" />
+            <img src="https://voicemaker.in/images/brands/12.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="page4">
+        <div class="page4-headDiv">
+          <h1>Industry-leading features that help us grow fast</h1>
+        </div>
+        <div class="page4-Div">
+          <div>
+            <div>
+              <h1>100M+</h1>
+              <h4>
+                Every day, text characters are <br />
+                converted into voiceovers.
+              </h4>
+            </div>
+            <div>
+              <h1>1.2M+</h1>
+              <h4>
+                Registered users from over 120 <br />
+                countries worldwide.
+              </h4>
+            </div>
+            <div>
+              <h4>
+                Discover how voice-over transforms words into human-sounding
+                voices.
+              </h4>
+              <a href="#writeBox"><button>Start creating ></button></a>
+            </div>
+          </div>
+        </div>
+        <!---------------- NewsLatter--------------- -->
+      </div>
+          <div id="newsletter" class="container">
+        <img class="img-head" src="https://raw.githubusercontent.com/emnatkins/cdn-codepen/main/LYJWgdK/LYJWgdK.mail.jpg" alt="subscribe to email">
+        <h1 class="title">subscribe</h1>
+        <p class="description">subscribe to our newsletter & stay updated</p>
+        <div class="form-box">
+            <div class="input-main">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path
+                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                </svg>
+                <input type="email" name="email" placeholder="Your Email">
+            </div>
+            <button class="submit" type="submit">Submit</button>
+        </div>
+    </div>
+    <!-- ------------------- footer --------------- -->
+    <main>
+  <nav>
+    <ion-icon class='logo' name="triangle-outline"></ion-icon>
+    <ion-icon class='menu' name="menu-outline"></ion-icon>
+  </nav>
+ 
+  <footer>
+    <header>
+      <h2>EchoSay</h2>
+      <p>"Industry-leading features that help us grow fast"</p>
+      <ul class='icons'>
+        <ion-icon class='icon' name="logo-facebook"></ion-icon>
+        <ion-icon class='icon' name="logo-instagram"></ion-icon>
+        <ion-icon class='icon' name="logo-twitter"></ion-icon>
+        <ion-icon class='icon' name="logo-youtube"></ion-icon>
+      </ul>
+    </header>
+    <aside>
+      <ul class='category'>
+        <li>
+          <h3>Developer API</h3>
+        </li>
+        <li>Changelog</li>
+        <li>System Status</li>
+        <li>Flats</li>
+        <li>Apartments</li>
+      </ul>
+      <ul class='category'>
+        <li>
+          <h3>Company</h3>
+        </li>
+        <li>Objective</li>
+        <li>Capital</li>
+        <li>Security</li>
+        <li>Selling</li>
+      </ul>
+      <ul class='category'>
+        <li>
+          <h3>Contact Us</h3>
+        </li>
+        <li>FAQ</li>
+        <li>Help Center</li>
+        <li>How to Use?</li>
+        <li>GDPR Policy</li>
+      </ul>
+      <ul class='category'>
+        <li>
+          <h3>Help</h3>
+        </li>
+        <li>Privacy</li>
+        <li>Contact</li>
+        <li>FAQs</li>
+        <li>Blog</li>
+      </ul>
+    </aside>
+  </footer>
+  <header><h5>Made with ❤️ by ASHISH CHAKTAVARTI</h5><h6>© Copyright 2023 EchoSay Technologies Pvt. Ltd., All rights reserved.</h6></header>
+</main>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </div>
 
     <script src="script.js"></script>

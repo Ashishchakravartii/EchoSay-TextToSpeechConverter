@@ -15,9 +15,9 @@ voiceSelect.addEventListener("change",()=>{
     speech.voice= voices[voiceSelect.value];
 })
 
-document.querySelector("button").addEventListener("click",()=>{
-    speech.text= document.querySelector("textarea").value;
-    window.speechSynthesis.speak(speech);
+document.querySelector(".listenBtn").addEventListener("click", () => {
+  speech.text = document.querySelector("textarea").value;
+  window.speechSynthesis.speak(speech);
 });
 
 // svg properties-----------
