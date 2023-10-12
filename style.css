@@ -684,6 +684,9 @@ font-size: 2.8vmax;
 .nav>div>div>img{
     width: 8vmax;
 }
+/* .page1{
+  padding: 50vmax 0;
+} */
 .page1>div>div{
    
     display: flex;
@@ -712,11 +715,12 @@ font-size: 2.8vmax;
 }
 .page1>div>h4{
    font-size: 1.9vmax;
+   margin-top: -7vmax;
 }
 .page1>div>a>button{
     width: 38vmax;
     height: 5vmax;
-    margin-top: 2vmax;
+    margin-top: -0.5vmax;
     margin-right: 2vmax;
 }
 .page1>div>button>a,.page1>div>button>a>i{
@@ -916,16 +920,16 @@ width: 100%;
 
 footer {
   z-index: 0;
-  width: 100%;
+  width: 100vw;
   background-color: black;
   font: 0.75rem helvetica,sans-serif;
   color: var(--light);
   display: flex;
   justify-content: center;
-  padding: 3rem 8%;
+  /* padding: 3rem 8%; */
 
   & header {
-    width: 100%;
+    width: 100vw;
     position: relative;
     display: flex;
     flex-direction: column;
